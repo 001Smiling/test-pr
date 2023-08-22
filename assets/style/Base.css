@@ -38,6 +38,7 @@
   max-height: 0;
   top: 4%;
   transition: max-height 0.5s ease-out;
+  box-shadow: 0px -6px 9px 0px white, 0px 6px 9px rgba(0, 0, 0, 0.4);
 }
 
 .header__list {
@@ -109,6 +110,7 @@
   width: 85vw;
   max-height: 100%;
   z-index: -1;
+  box-shadow: 0px -6px 9px 0px white, 0px 6px 9px rgba(0, 0, 0, 0.4);
 }
 
 .header__side-menu:checked ~ .header__hamb .header__hamb-line {
@@ -382,6 +384,7 @@ a {
   max-height: 0;
   top: 4%;
   transition: max-height 0.5s ease-out;
+  box-shadow: 0px -6px 9px 0px white, 0px 6px 9px rgba(0, 0, 0, 0.4);
 }
 
 .header__list {
@@ -453,6 +456,7 @@ a {
   width: 85vw;
   max-height: 100%;
   z-index: -1;
+  box-shadow: 0px -6px 9px 0px white, 0px 6px 9px rgba(0, 0, 0, 0.4);
 }
 
 .header__side-menu:checked ~ .header__hamb .header__hamb-line {

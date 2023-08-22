@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/normalize.css" />
+    <link rel="stylesheet" href="./assets/style/Base.css" />
+    <!-- <link rel="stylesheet" href="./assets/style/Elements/header.css" /> -->
+    <link rel="shortcut icon" href="./assets/images/icons/icon1.svg" />
+    <title>Фонд борьбы с диабетом</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <input class="header__side-menu" type="checkbox" id="side-menu" />
+            <label class="header__hamb" for="side-menu"><span class="header__hamb-line"></span></label>
+            <a class="header-container__img-block">
+                <img src="./assets/images/logo-mob.jpg" class="header__img" alt="ФБД" /></a>
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#festival" class="header__link">Фестиваль</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#aboutUs" class="header__link">О нас</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#partners" class="header__link">Партнеры</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#contest" class="header__link">Конкурс</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#reviews" class="header__link">Отзывы</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header__btn buttons"><a href="#help"
+                    class="header__btn-link color-text-btn">Помочь</a></button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main-festival" id="festival">
+            <div class="main-festival__video-container">
+                <div class="main-festival__video">
+                    <h2 class="main-festival__title  title-h2 anime">
+                        «ДиабетФест» в Казани
+                    </h2>
+                    <div class="video-container anime">
+                        <video poster="./assets/images/block_festival_zastavka.jpg" controls
+                            class="block-festival__video-item" id="my-video">
+                            <source src="./assets/video/Timur_Nikolaev_ANO.mp4" type="video/mp4" />
+                        </video>
+                        <div id="overlay"></div>
+                        <button id="play-btn">Play</button>
+                    </div>
+                    <div class="block-festival__text-p sizeblock anime">
+                        Приглашаем на фестиваль детей и взрослых с диабетом, и всех,
+                        кому важно свое здоровье. Наша цель – профилактика сахарного
+                        диабета и его осложнений у жителей всей России.
+                    </div>
+                </div>
+            </div>
+            <div class="main-festival__logo-block sizeblock">
+                <div class="main-festival__logos">
+                    <p class="main-festival__logo"> <img
+                            src="./assets/images/block_festival_logo/block_festival_logo1.png"
+                            class="main-festival__logo-img" alt="ФБД" /></p>
+                    <p class="main-festival__logo"> <img
+                            src="./assets/images/block_festival_logo/block_festival_logo3.png"
+                            class="main-festival__logo-img" alt="ФБД" /></p>
+                    <p class="main-festival__logo"> <img
+                            src="./assets/images/block_festival_logo/block_festival_logo2.png"
+                            class="main-festival__logo-img" alt="ФБД" /></p>
+                </div>
+            </div>
+            <div class="main-festival__why sizeblock " id="text">
+                <div class="main-festival__why-item animation-botton">
+                    <div class="main-festival__why-img big">
+                        <img src="./assets/images/block_festival_lec.jpg" alt="fest_lec"
+                            class="main-festival__why-item-img" />
+                    </div>
+                    <div class="main-festival__why-item-text">
+                        <div class="main-festival__why-item-title">
+                            На фестивале ты узнаешь:
+                        </div>
+                        <ul class="main-festival__why-item-list">
+                            <li class="main-festival__why-item-text-p text-p">как защитить себя и свою
+                                семью от диабета;</li>
+                            <li class="main-festival__why-item-text-p text-p">что такое диабет и какие у
+                                него симптомы;</li>
+                            <li class="main-festival__why-item-text-p text-p">какой у тебя сахар в крови и
+                                артериальное давление.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main-festival__why-item animation-botton">
+                    <div class="main-festival__why-img big">
+                        <img src="./assets/images/block_festival_test.png" alt="festival_test"
+                            class="main-festival__why-item-img" />
+                    </div>
+                    <div class="main-festival__why-item-text">
+                        <div class="main-festival__why-item-title">
+                            Примешь участие:
+                        </div>
+                        <ul class="main-festival__why-item-list">
+                            <li class="main-festival__why-item-text-p text-p"> в лекциях эндокринолога,
+                                нутрициолога, психолога и других специалистов; </li>
+                            <li class="main-festival__why-item-text-p text-p">в мастер-классах от наших
+                                партнеров;</li>
+                            <li class="main-festival__why-item-text-p text-p">в фотозоне; </li>
+                            <li class="main-festival__why-item-text-p text-p">в танцевальных и спортивных
+                                активностях; </li>
+                            <li class="main-festival__why-item-text-p text-p">в отрытом микрофоне с
+                                диаблогерами;</li>
+                            <li class="main-festival__why-item-text-p text-p">в просмотрах фильмах о
+                                диабете; </li>
+                            <li class="main-festival__why-item-text-p text-p">в награждении победителей
+                                всероссийского конкурса «О Диабете». </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main-festival__why-item animation-botton">
+                    <div class="main-festival__why-img big"><img src="./assets/images/block_festival_group.png"
+                            alt="festival_group" class="block-festival__why-item-img" /></div>
+                    <div class="main-festival__why-item-text">
+                        <div class="main-festival__why-item-title">Получишь:</div>
+                        <ul class="main-festival__why-item-list">
+                            <li class="main-festival__why-item-text-p text-p">много полезной информации;
+                            </li>
+                            <li class="main-festival__why-item-text-p text-p">позитивный настрой; </li>
+                            <li class="main-festival__why-item-text-p text-p"> новых друзей. </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main-festival__buttons animation-botton block-buttons">
+                    <div class="main-festival__button buttons">
+                        <a class="main-festival__but color-text-btn"
+                            href="https://fond-borby-s-diabetom.timepad.ru/event/2501952/"
+                            target="_blank">Регистрация</a>
+                    </div>
+                    <div class="main-festival__button buttons">
+                        <a class="main-festival__but color-text-btn" href="https://vk.com/@diabet.fest-programma"
+                            target="_blank">Программа</a>
+                    </div>
+                </div>
+        </section>
+        <section class="main-progress sizeblock" id="aboutUs">
+            <h2 class="block-progress__title title-h2">Наши достижения</h2>
+            <div class="main-progress__wrapper">
+                <!-- часть с основным текстом и фотографией -->
+                <div class="main-progress__wrapper">
+                    <p class="main-progress__text text-p">
+                        <a href="https://vk.com/diabet.fond" target="_blank"
+                            class="main-progress__text-span">Благотворительный фонд борьбы с
+                            диабетом</a>
+                        - улучшаем качество жизни всех и каждого с диабетом. Большинство
+                        членов нашей команды с диабетом 1 типа, поэтому мы, как никто
+                        другой, знаем о заболевании многое и понимаем потребности таких
+                        же людей. Наш фонд – единственный продуктовый фонд для людей с
+                        сахарным диабетом. Наши проекты помогают всем людям с диабетом,
+                        принося пользу каждому из них.
+                    </p>
+                </div>
+                <div class="main-progress__img-block">
+                    <img src="./assets/images/block-progress-img.png" alt="photo" class="block-progress__img" />
+                </div>
+            </div>
+            <div class="main-progress__slider" id="slider">
+                <input type="radio" name="slider" id="s1" checked>
+                <input type="radio" name="slider" id="s2">
+                <input type="radio" name="slider" id="s3">
+                <input type="radio" name="slider" id="s4">
+                <input type="radio" name="slider" id="s5">
+                <label for="s1" id="slide1">
+                    <div class="progress-card">
+                        <div class="progress-card__img-block">
+                            <a href="https://diabet.tatar/projects/shkola-diabeta/" target="_blank"><img
+                                    src="./assets/images/block-progress-card-img.png" alt="photo"
+                                    class="progress-card__img-size" /></a>
+                        </div>
+                        <h3 class="card__title title-h3">Онлайн-школа диабета</h3>
+                        <p class="card__text text-p__small card__text-p-one">
+                            Удобный и доступный способ получения знаний о диабете,
+                            который помогает улучшить качество жизни людей с этим
+                            заболеванием.
+                        </p>
+                        <div class="progress-card__btn-block">
+                            <button class="progress-card__btn buttons progress-btn__small">
+                                <a href="https://vk.com/shkola.diabeta" target="_blank" class="card__link">Вконтаке</a>
+                            </button>
+                            <button class="progress-card__btn buttons progress-btn__small">
+                                <a href="https://diabet.tatar/projects/shkola-diabeta/" target="_blank"
+                                    class="card__link">Сайт школы</a>
+                            </button>
+                        </div>
+                        <!-- <a href="https://vk.com/shkola.diabeta" target="_blank" class="card__link">Подробнее</a> -->
+                    </div>
+                </label>
+                <label for="s2" id="slide2">
+                    <div class="progress-card">
+                        <div class="progress-card__img-block">
+                            <img src="./assets/images/block-progress-card-img2.png" alt="photo"
+                                class="progress-card__img-size" />
+                        </div>
+                        <h3 class="card__title title-h3">Дневник Диабетика</h3>
+                        <p class="card__text text-p__small card__text-p-two">
+                            Официальное сообщество людей с диабетом, в котором мы
+                            помогаем друг другу, общаемся и делимся своими знаниями
+                            каждый день.
+                        </p>
+                        <button class="progress-card__btn buttons">
+                            <a href="https://vk.com/dnevnik.diabetika" target="_blank" class="card__link">Подробнее</a>
+                        </button>
+                    </div>
+                </label>
+                <label for="s3" id="slide3">
+                    <div class="progress-card">
+                        <div class="progress-card__img-block">
+                            <img src="./assets/images/block-progress-card-img3.png" alt="photo"
+                                class="progress-card__img-size img-size__xl" />
+                        </div>
+                        <h3 class="card__title title-h3">Хлебные Единицы</h3>
+                        <p class="card__text text-p__small card__text-p-three">
+                            Приложение, с помощью которого можно легко и быстро
+                            подсчитать количество хлебных единиц в любом продукте, а
+                            также рассчитать дозу инсулина.
+                        </p>
+                        <button class="progress-card__btn buttons">
+                            <a href="https://vk.com/calculatorxe" target="_blank" class="card__link">Подробнее</a>
+                        </button>
+                    </div>
+                </label>
+                <label for="s4" id="slide4">
+                    <div class="progress-card">
+                        <div class="progress-card__img-block">
+                            <img src="./assets/images/block-progress-diagnostika.png" alt="photo"
+                                class="progress-card__img-size" />
+                        </div>
+                        <h3 class="card__title title-h3">Диагностика диабета</h3>
+                        <p class="card__text text-p__small card__text-p-four">
+                            Проект по раннему выявлению сахарного диабета 2 типа,
+                            профилактике осложнений и улучшения качества жизни.
+                        </p>
+                        <button class="progress-card__btn buttons">
+                            <a href="https://diabet.tatar/test/" target="_blank" class="card__link">Подробнее</a>
+                        </button>
+                    </div>
+                </label>
+                <label for="s5" id="slide5">
+                    <div class="progress-card">
+                        <div class="progress-card__img-block">
+                            <img src="./assets/images/block-progress-o-diabete.png" alt="photo"
+                                class="progress-card__img-size" />
+                        </div>
+                        <h3 class="progress-card__title">О диабете</h3>
+                        <p class="progress-card__text text-p__small">
+                            Интернет-СМИ с актуальной информацией о диабете, которое
+                            собирает все новости и события, связанные с диабетом, со
+                            всего интернета в одном месте.
+                        </p>
+                        <button class="progress-card__btn buttons">
+                            <a href="https://vk.com/o_diabete" target="_blank" class="card__link">Подробнее</a>
+                        </button>
+                    </div>
+                </label>
+            </div>
+        </section>
+        <section class="main-partners sizeblock">
+            <div class="main-partners__title-block">
+                <h2 class="main-partners__title title-h2">Партнеры</h2>
+            </div>
+            <div class="partners-slider sizeblock">
+                <div class="partners-slider__scroll slider--track">
+                    <div class="partners-slider__shadow">
+                        <div class="partners-slider__slide-container">
+                            <div class="slide__img-block">
+                                <img class="slide__img" src="./assets/images/logo_partners/philgood.png"
+                                    alt="logo-philgood" />
+                            </div>
+                            <p class="text-p__small">
+                                Партнёр НКО, бизнеса, владельцев капиталов в реализации
+                                социально значимых объектов
+                            </p>
+                            <button class="partners-slider__btn buttons">
+                                <a href="https://philgood.ru/" target="_blank" class="card__link">Перейти</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="partners-slider__shadow">
+                        <div class="partners-slider__slide-container">
+                            <div class="slide__img-block">
+                                <img class="slide__img" src="./assets/images/logo_partners/elta.png" alt="logo-elta" />
+                            </div>
+                            <p class="text-p__small">
+                                Разработчик и производитель первого российского
+                                экспресс-измерителя концентрации глюкозы в крови «Сателлит»®
+                            </p>
+                            <button class="partners-slider__btn buttons">
+                                <a href="https://eltaltd.ru/" target="_blank" class="card__link">Перейти</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="partners-slider__shadow">
+                        <div class="partners-slider__slide-container">
+                            <div class="slide__img-block">
+                                <img class="slide__img" src="./assets/images/logo_partners/avanta.png"
+                                    alt="logo-avanta" />
+                            </div>
+                            <p class="text-p__small">
+                                Крупный российский производитель качественной и доступной
+                                косметической продукции для всех слоев населения
+                            </p>
+                            <button class="partners-slider__btn buttons">
+                                <a href="https://avnt.ru/" target="_blank" class="card__link">Перейти</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="partners-slider__shadow">
+                        <div class="partners-slider__slide-container">
+                            <div class="slide__img-block">
+                                <img class="slide__img" src="./assets/images/logo_partners/diamarka.png"
+                                    alt="logo-diamarka" />
+                            </div>
+                            <p class="text-p__small">
+                                Крупнейший дистрибьютор и интернет-магазин медицинских товаров
+                                для людей с диабетом
+                            </p>
+                            <button class="partners-slider__btn buttons">
+                                <a href="https://diamarka.com/" target="_blank" class="card__link">Перейти</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="partners-slider__shadow">
+                        <div class="partners-slider__slide-container">
+                            <div class="slide__img-block">
+                                <img class="slide__img" src="./assets/images/logo_partners/syaoling.jpg"
+                                    alt="logo-syaolong" /></a>
+                            </div>
+                            <p class="text-p__small">
+                                «Сяо Лонг» — это онлайн школа для смелых людей, желающих
+                                выучить китайский язык!
+                            </p>
+                            <button class="partners-slider__btn buttons">
+                                <a href="https://vk.com/public219602314" target="_blank" class="card__link">Перейти</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="partners-slider__buttons animation-botton block-buttons">
+                <div class="main-festival__button buttons">
+                    <a class="main-festival__but color-text-btn"
+                        href="https://fond-borby-s-diabetom.timepad.ru/event/2501952/" target="_blank">Регистрация</a>
+                </div>
+                <div class="main-festival__button buttons">
+                    <a class="main-festival__but color-text-btn" href="https://vk.com/@diabet.fest-programma"
+                        target="_blank">Программа</a>
+                </div>
+            </div>
+        </section>
+        <section class="main-competition sizeblock">
+            <div class="main-competition__container">
+                <h2 class="main-competition__title title-h2 anime">Всероссийский конкурс «О Диабете»</h2>
+                <div class="main-competition__text text-p anime"> Всероссийский конкурс «О Диабете» проводится в целях
+                    повышения
+                    осведомленности людей о профилактике диабета 2 типа и его
+                    осложнений.
+                </div>
+                <div class="competition-rules">
+                    <div class="competition-rules__rule-block anime">
+                        <div class="competition-rules__img-block">
+                            <img src="./assets/images/nomination/people.png" alt="people">
+                        </div>
+                        <div class="competition-rules__text-block text-p">
+                            Участники: <p>дети 6+ и взрослые, проживающие в России.</p>
+                        </div>
+                    </div>
+                    <div class="competition-rules__rule-block anime">
+                        <div class="competition-rules__img-block">
+                            <img src="./assets/images/nomination/sand.png" alt="sand">
+                        </div>
+                        <div class="competition-rules__text-block text-p">
+                            Срок проведения:<p>с 15 августа по 15 октября 2023.</p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="competition-nomination-title title-h2 anime">
+                    Номинации:
+                </h2>
+                <div class="competition-nomination__type-block anime">
+                    <div class="type-nomination">
+                        <div class="type-nomination__container">
+                            <div class="type-nomination__img-block">
+                                <img src="./assets/images/nomination/foto.png" alt="foto">
+                            </div>
+                            <div class="type-nomination__text-block">Фотография</div>
+                        </div>
+                    </div>
+                    <div class="type-nomination">
+                        <div class="type-nomination__container">
+                            <div class="type-nomination__img-block">
+                                <img src="./assets/images/nomination/video.png" alt="video">
+                            </div>
+                            <div class="type-nomination__text-block">Видео</div>
+                        </div>
+                    </div>
+                    <div class="type-nomination">
+                        <div class="type-nomination__container">
+                            <div class="type-nomination__img-block">
+                                <img src="./assets/images/nomination/paint.png" alt="paint">
+                            </div>
+                            <div class="type-nomination__text-block">Рисунок</div>
+                        </div>
+                    </div>
+                    <div class="type-nomination">
+                        <div class="type-nomination__container">
+                            <div class="type-nomination__img-block">
+                                <img src="./assets/images/nomination/post.png" alt="post">
+                            </div>
+                            <div class="type-nomination__text-block">Пост о жизни с диабетом</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="type-nomination__buttons animation-botton block-buttons">
+                    <div class="main-festival__button buttons">
+                        <a class="main-festival__but color-text-btn" href="№" target="_blank">Положение</a>
+                    </div>
+                    <div class="main-festival__button buttons">
+                        <a class="main-festival__but color-text-btn" href="№" target="_blank">Подать заявление</a>
+                    </div>
+                </div>
+                <div class="type-nomination__total text-p__small">Все участники получат сертификат об участии.
+                    Победители получат
+                    дипломы и подарки от спонсоров. Награждение победителей состоится на «ДиабетФест» в Казани в ноябре.
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>

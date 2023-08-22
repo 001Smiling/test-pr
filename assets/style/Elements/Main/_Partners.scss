@@ -177,7 +177,6 @@
         justify-content: space-around;
         align-items: start;
         padding: 3% 3% 3% 4%;  
-        // background: #ebeaea;
         border-radius: 4.6875rem;
         box-shadow: 0px -6px 9px 0px #ebeaea, 0px 6px 9px rgba(0, 0, 0, 0.4);
         overflow-x: auto;
@@ -191,6 +190,7 @@
         -webkit-overflow-scrolling: touch;
         height: 380px;
         scroll-padding-left:6px;
+        scroll-padding-right:6px;
     }
     .partners-slider__shadow {
         width: 233px;

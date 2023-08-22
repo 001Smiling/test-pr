@@ -154,6 +154,7 @@ $maxWidth: 1440;
     max-height: 100%;
     z-index: -1;
     overflow: hidden;
+    box-shadow: 0px -6px 9px 0px white, 0px 6px 9px rgba(0, 0, 0, 0.4);
   }
   .header__nav {
     max-height: 0;
@@ -186,11 +187,11 @@ $maxWidth: 1440;
   
   .header__hamb-line {
     background: $text;
-    border-radius: 0.1875rem;
+    border-radius: 50%;
     display: block;
-    height: 2px;
+    height: 4px;
     position: relative;
-    width: 24px;
+    width: 44px;
   }
   
   /* Style span tag */
@@ -208,11 +209,11 @@ $maxWidth: 1440;
   }
   
   .header__hamb-line::before {
-    top: 5px;
+    top: 14px;
   }
   
   .header__hamb-line::after {
-    top: -5px;
+    top: -14px;
   }
   
   .header__side-menu {

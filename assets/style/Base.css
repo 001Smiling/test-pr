@@ -814,11 +814,13 @@ video[poster] {
   }
 }
 .main-progress {
+  position: relative;
   height: 825px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  z-index: -1;
 }
 
 .main-progress__wrapper {

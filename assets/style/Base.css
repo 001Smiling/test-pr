@@ -873,6 +873,7 @@ input[type=radio] {
   align-items: center;
   justify-content: center;
   transition: transform 400ms ease;
+  z-index: -1;
 }
 
 .progress-card {

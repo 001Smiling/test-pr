@@ -524,7 +524,7 @@ a {
 }
 @media (max-width: 800px) {
   .main {
-    height: 5461px;
+    height: 5536px;
   }
 }
 @media (max-width: 750px) {
@@ -978,7 +978,7 @@ input[type=radio] {
 }
 @media (max-width: 800px) {
   .main-progress {
-    height: 760px;
+    height: 867px;
   }
   #slider label {
     left: 27%;

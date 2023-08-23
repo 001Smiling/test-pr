@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     hamb.classList.remove("active");
     body.classList.remove("noscroll");
   }
-})
+
 
 
 // const video = document.getElementById('my-video');
@@ -120,6 +120,7 @@ for (let elm of elements1) {
 for (let elm of elements2) {
   observer.observe(elm);
 }
+})
 
 // window.addEventListener('DOMContentLoaded', function() {
 //   const container = document.querySelector('.container');

@@ -146,9 +146,14 @@
         width: 40%;
     }
 }
+@media (max-width: 510px) {
+    .main-competition__title{
+        max-width: 72%;
+    }
+}
 @media (max-width: 500px) {
     .main-competition{
-        height: 1158px;
+        height: 1185px;
     }
     .competition-nomination__type-block{
         height: 500px;

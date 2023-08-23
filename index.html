@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <!-- <header class="header">
         <div class="header-container">
             <input class="header__side-menu" type="checkbox" id="side-menu" />
             <label class="header__hamb" for="side-menu"><span class="header__hamb-line"></span></label>
@@ -41,9 +41,78 @@
                     </li>
                 </ul>
             </nav>
+        </div>
+    </header> -->
+    <!-- <section class="top-nav">
+        <div>
+            Logo Here
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <nav class="menu">
+            <ul class="menu1">
+                <li class="header__item">
+                    <a href="#festival" class="header__link">Фестиваль</a>
+                </li>
+                <li class="header__item">
+                    <a href="#aboutUs" class="header__link">О нас</a>
+                </li>
+                <li class="header__item">
+                    <a href="#partners" class="header__link">Партнеры</a>
+                </li>
+                <li class="header__item">
+                    <a href="#contest" class="header__link">Конкурс</a>
+                </li>
+                <li class="header__item">
+                    <a href="#reviews" class="header__link">Отзывы</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="popup" id="popup"></div>
+    </section> -->
+    <header class="header">
+        <div class="header-container" id="wrap">
+            <div class="hamb">
+                <div class="hamb__field" id="hamb">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <a class="header-container__img-block">
+                <img src="./assets/images/logo-mob.jpg" class="header__img" alt="ФБД" /></a>
+            </a>
+            <nav class="header-menu">
+                <ul class="header-menu__list" id="menu">
+                    <li class="header-menu__item">
+                        <a href="#festival" class="header-menu__link">Фестиваль</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="#aboutUs" class="header-menu__link">О нас</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="#partners" class="header-menu__link">Партнеры</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="#contest" class="header-menu__link">Конкурс</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="#reviews" class="header-menu__link">Отзывы</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="#" class="header-menu__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
             <button class="header__btn buttons"><a href="#help"
                     class="header__btn-link color-text-btn">Помочь</a></button>
         </div>
+        <div class="popup" id="popup"></div>
     </header>
     <main class="main">
         <section class="main-festival" id="festival">
@@ -57,8 +126,6 @@
                             class="block-festival__video-item" id="my-video">
                             <source src="./assets/video/Timur_Nikolaev_ANO.mp4" type="video/mp4" />
                         </video>
-                        <div id="overlay"></div>
-                        <button id="play-btn">Play</button>
                     </div>
                     <div class="block-festival__text-p sizeblock anime">
                         Приглашаем на фестиваль детей и взрослых с диабетом, и всех,
@@ -152,10 +219,10 @@
                 </div>
         </section>
         <section class="main-progress sizeblock" id="aboutUs">
-            <h2 class="block-progress__title title-h2">Наши достижения</h2>
+            <h2 class="block-progress__title title-h2 anime">Наши достижения</h2>
             <div class="main-progress__wrapper">
                 <!-- часть с основным текстом и фотографией -->
-                <div class="main-progress__wrapper">
+                <div class="main-progress__wrapper anime">
                     <p class="main-progress__text text-p">
                         <a href="https://vk.com/diabet.fond" target="_blank"
                             class="main-progress__text-span">Благотворительный фонд борьбы с
@@ -274,12 +341,12 @@
         </section>
         <section class="main-partners sizeblock">
             <div class="main-partners__title-block">
-                <h2 class="main-partners__title title-h2">Партнеры</h2>
+                <h2 class="main-partners__title title-h2 anime">Партнеры</h2>
             </div>
-            <div class="partners-slider sizeblock">
+            <div class="partners-slider sizeblock anime">
                 <div class="partners-slider__scroll slider--track">
                     <div class="partners-slider__shadow">
-                        <div class="partners-slider__slide-container">
+                        <div class="partners-slider__slide-container" id="partners">
                             <div class="slide__img-block">
                                 <img class="slide__img" src="./assets/images/logo_partners/philgood.png"
                                     alt="logo-philgood" />
@@ -367,7 +434,7 @@
         </section>
         <section class="main-competition sizeblock">
             <div class="main-competition__container">
-                <h2 class="main-competition__title title-h2 anime">Всероссийский конкурс «О Диабете»</h2>
+                <h2 class="main-competition__title title-h2 anime" id="contest">Всероссийский конкурс «О Диабете»</h2>
                 <div class="main-competition__text text-p anime"> Всероссийский конкурс «О Диабете» проводится в целях
                     повышения
                     осведомленности людей о профилактике диабета 2 типа и его

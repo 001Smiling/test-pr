@@ -1,9 +1,9 @@
 .main-festival{
-  height: 2245px;
+  height: 2359px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   z-index: -100;
 }
 .main-festival__video-container{
@@ -315,5 +315,45 @@
 @media (min-width: 1440px){
   .block-festival__text-p {
     font-size: 24px;
+  }
+}
+@media  (max-width: 800px) {
+  .main-festival{
+    height: 2579px;
+  }
+}
+@media  (max-width: 700px) {
+  .main-festival{
+    height: 2349px;
+  }
+}
+@media  (max-width: 600px) {
+  .main-festival{
+    height: 2109px;
+  }
+}
+@media  (max-width: 450px) {
+  .main-festival{
+    height: 1940px;
+  }
+}
+@media  (max-width: 400px) {
+  .main-festival{
+    height: 1806px;
+  }
+}
+// @media  (max-width: 500px) {
+//   .main-festival{
+//     height: 2100px;
+//   }
+// }
+// @media  (max-width: 800px) {
+//   .main-festival{
+//     height: 1800px;
+//   }
+// }
+@media  (max-width: 470px) {
+  .main-festival__button{
+    width: 42vw;
   }
 }

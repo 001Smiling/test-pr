@@ -1,11 +1,9 @@
   .main-progress{
-    position: relative;
     height: 825px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    z-index: -1;
   }
   .main-progress__wrapper{
     width: 100%;
@@ -76,7 +74,6 @@
     align-items: center;
     justify-content: center;
     transition: transform 400ms ease;
-    z-index: -1;
   }
   .progress-card{
     display: flex;
